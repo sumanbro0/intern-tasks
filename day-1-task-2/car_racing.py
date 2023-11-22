@@ -7,7 +7,7 @@ while(not exit):
     print("stop -> stop the car")
     print("exit -> exit the program")
     print("What do you want?")
-    command=str(input("Enter command")).lower()
+    command=str(input("Enter command: ")).lower()
     match command:
         case "start":
             if state is not states[0]:
