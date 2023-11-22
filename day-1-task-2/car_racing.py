@@ -26,6 +26,5 @@ while(not exit):
             choice=str(input("Enter(yes/no): ")).lower()
             if choice=="yes":
                 exit=True
-                break
 
 
