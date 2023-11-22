@@ -16,4 +16,4 @@ print(gcd(270,192))
 
 # Inbuild feature
 
-print(math.gcd(270,192))
+# print(math.gcd(270,192))
