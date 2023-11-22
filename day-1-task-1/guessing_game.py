@@ -23,4 +23,4 @@ while(attempt>0):
         if play_again.lower()=="yes":
             attempt=3
         else:
-            print("Bye")
+            print("Bye...")
