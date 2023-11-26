@@ -13,8 +13,8 @@ while(not exit):
         . delete -> Delete the to-do list and take it to the bin if it’s not
         . rmanent.
         . view incomplete -> view all the incomplete tasks in the to-do list.
-        . view bin -> view all the tasks that are deleted and are not currently
-        in bin.
+        . view bin -> view all the tasks that are deleted and are not
+          currently in bin.
         . restore -> restore the deleted task from the bin. 
         . clear bin -> delete all the to-dos that are presented in the bin.
         . help -> display all the help message. 
