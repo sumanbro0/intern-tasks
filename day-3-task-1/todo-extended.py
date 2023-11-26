@@ -6,19 +6,19 @@ while(not exit):
     if help==True:
             print(
         '''
-        . add -> add a task to the to-do list.
-        . complete -> mark a task as complete.
-        . view all -> view the current tasks in the to-do list.
-        . view complete -> view all the completed tasks in the to-do list.
-        . delete -> Delete the to-do list and take it to the bin if it’s not
-        . rmanent.
-        . view incomplete -> view all the incomplete tasks in the to-do list.
-        . view bin -> view all the tasks that are deleted and are not
-          currently in bin.
-        . restore -> restore the deleted task from the bin. 
-        . clear bin -> delete all the to-dos that are presented in the bin.
-        . help -> display all the help message. 
-        . exit -> exit the program.
+        . add -> add a task to the to-do list.\n
+        . complete -> mark a task as complete.\n
+        . view all -> view the current tasks in the to-do list.\n
+        . view complete -> view all the completed tasks in the to-do list.\n
+        . delete -> Delete the to-do list and take it to the bin if it’s not\n
+        . rmanent.\n
+        . view incomplete -> view all the incomplete tasks in the to-do list.\n
+        . view bin -> view all the tasks that are deleted and are not\n
+          currently in bin.\n
+        . restore -> restore the deleted task from the bin. \n
+        . clear bin -> delete all the to-dos that are presented in the bin.\n
+        . help -> display all the help message. \n
+        . exit -> exit the program.\n
 
         '''
     )
