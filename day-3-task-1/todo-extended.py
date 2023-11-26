@@ -55,7 +55,7 @@ while(not exit):
             case "view all":
                 if todos:
                     for i,todo in enumerate(todos):
-                        print(f"sn:{i+1}\ndescription:{todo['desc']}\nStatus:{todo['status']}\n")
+                        print(f"\nsn:{i+1}\ndescription:{todo['desc']}\nStatus:{todo['status']}\n".center(100,"*"))
                 else:
                     print("Empty todo list")
 
@@ -63,7 +63,7 @@ while(not exit):
                 if todos:
                     for i,todo in enumerate(todos):
                         if todo['status']=='complete':
-                            print(f"sn:{i+1}\ndescription:{todo['desc']}\nStatus:{todo['status']}\n")
+                            print(f"\nsn:{i+1}\ndescription:{todo['desc']}\nStatus:{todo['status']}\n".center(100,"*"))
                         else:
                             print("No tasks completed")
                 else:
@@ -74,7 +74,7 @@ while(not exit):
                     for i,todo in enumerate(todos):
                         if todo['status']=='incomplete':
 
-                            print(f"sn:{i+1}\ndescription:{todo['desc']}\nStatus:{todo['status']}\n")
+                            print(f"\nsn:{i+1}\ndescription:{todo['desc']}\nStatus:{todo['status']}\n".center(100,"*"))
                         else:
                             print("No tasks incomplete")
                 else:
@@ -109,7 +109,7 @@ while(not exit):
             case "view bin":
                 if bin:
                     for i,b in enumerate(bin):
-                        print(f"sn:{i+1}\ndescription:{b['desc']}\nStatus:{b['status']}\n")
+                        print(f"\nsn:{i+1}\ndescription:{b['desc']}\nStatus:{b['status']}\n".center(100,"*"))
                 else:
                     print("Empty bin")
 
