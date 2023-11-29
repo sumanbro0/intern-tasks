@@ -79,8 +79,6 @@ show_help(True)
 try:
     while True:
         command=str(input("enter command: ")).strip().lower()
-
-        
         match command:
             case "add books":    
                 book.add()
