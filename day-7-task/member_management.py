@@ -31,6 +31,7 @@ class LibraryMember:
         address=str(input("Enter address:")).strip()
         dob=str(input("Enter date of birth(yyyy-mm-dd): "))
         mem=LibraryMember(name,address,dob)
+        print(mem)
         cls.members.append(mem)
 
     @classmethod
