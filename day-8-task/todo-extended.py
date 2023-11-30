@@ -1,5 +1,22 @@
-todos=[]
-bin=[]
+import json
+
+def save(data, filename):
+    with open(filename, 'w') as file:
+        json.dump(data, file, indent=2)
+
+def load(filename):
+    try:
+        with open(filename, 'r') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        return []
+
+todos_filename = 'todos.json'
+bin_filename = 'bin.json'
+
+todos = load(todos_filename)
+bin = load(bin_filename)
+
 exit=False
 help=True
 while(not exit):
@@ -87,6 +104,8 @@ while(not exit):
                 print("Do You Really want to exit?")
                 choice=str(input("Enter(yes/no): ")).lower().strip()
                 if choice=="yes":
+                    save(todos, todos_filename)
+                    save(bin, bin_filename)
                     exit=True
 
             case "delete":
